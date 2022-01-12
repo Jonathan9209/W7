@@ -10,7 +10,7 @@ pool:
  #vmImage: ubuntu-latest
  name: Default
  demands:
- - agent.name -equals SMI
+ - agent.name -equals MSI
 
 steps:
 - script: echo Hello, world!
